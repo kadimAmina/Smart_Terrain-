@@ -2,7 +2,7 @@
 
 Smart_Terrain est un projet intelligent basé sur Raspberry Pi, vision par ordinateur et Arduino, permettant de détecter automatiquement les buts dans un terrain miniature, d’enregistrer les actions, d’afficher le score en temps réel et de gérer un éclairage automatique.
 
-Objectifs du projet :
+## Objectifs du projet :
 
 Automatiser la détection des buts sans intervention humaine :
 Enregistrer chaque but sous forme de vidéo
@@ -10,7 +10,7 @@ Afficher le score en temps réel
 Fournir une interface simple et intuitive
 Mettre en œuvre une solution IoT complète (Raspberry Pi + Arduino)
 
-Architecture du système :
+## Architecture du système :
 
 Raspberry Pi : traitement vidéo, détection et interface
 Caméra Raspberry Pi : capture vidéo
@@ -19,8 +19,9 @@ GPIO : gestion buzzer
 Arduino + capteur PIR : éclairage automatique
 Tkinter : interface graphique utilisateur
 
-Fonctionnement du système :
-Détection de but :
+## Fonctionnement du système :
+
+### Détection de but :
 
 Capture vidéo via Picamera2
 Détection du ballon par HoughCircles
@@ -29,20 +30,20 @@ Incrémentation automatique du score
 Activation d’un buzzer
 Enregistrement vidéo du but détecté
 
-Interface graphique :
+### Interface graphique :
 
 Affichage du score en temps réel
 Liste des vidéos enregistrées
 Lecture des vidéos via VLC
 Rafraîchissement automatique chaque seconde
 
-Éclairage automatique :
+## Éclairage automatique :
 
 Capteur PIR pour détecter la présence
 Allumage automatique de l’éclairage
 Système indépendant mais intégré au projet global
 
-Prérequis matériels :
+## Prérequis matériels :
 
 Raspberry Pi (OS 64-bit recommandé)
 Caméra Raspberry Pi
@@ -52,7 +53,7 @@ Arduino Uno
 Capteur PIR
 Breadboard et câblage
 
-Prérequis logiciels :
+## Prérequis logiciels :
 
 Python 3.10+
 OpenCV
@@ -61,9 +62,16 @@ Tkinter
 VLC Media Player
 Arduino IDE
 
-Équipe de projet
+## Rapport du projet
 
-Réaliser par :
+Le rapport détaillé du projet est disponible au format PDF.
+
+👉 [Télécharger le rapport](rapport/Rapport_Smart_Terrain.pdf)
+
+
+## Équipe de projet
+
+### Réaliser par :
 
 [@kadimAmina](https://github.com/kadimAmina)
 
@@ -73,6 +81,8 @@ Réaliser par :
 
 [@fatimazahrabenhaddou24-prog](https://github.com/fatimazahrabenhaddou24-prog)
 
-Encadré par :
+### Encadré par :
 
 Mr.AZIZI Mostafa
+
+
