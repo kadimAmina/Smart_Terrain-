@@ -5,18 +5,27 @@ Smart_Terrain est un projet intelligent basé sur Raspberry Pi, vision par ordin
 ## Objectifs du projet :
 
 Automatiser la détection des buts sans intervention humaine :
+
 Enregistrer chaque but sous forme de vidéo
+
 Afficher le score en temps réel
+
 Fournir une interface simple et intuitive
+
 Mettre en œuvre une solution IoT complète (Raspberry Pi + Arduino)
 
 ## Architecture du système :
 
 Raspberry Pi : traitement vidéo, détection et interface
+
 Caméra Raspberry Pi : capture vidéo
+
 OpenCV : détection du ballon
+
 GPIO : gestion buzzer
+
 Arduino + capteur PIR : éclairage automatique
+
 Tkinter : interface graphique utilisateur
 
 ## Fonctionnement du système :
@@ -24,42 +33,63 @@ Tkinter : interface graphique utilisateur
 ### Détection de but :
 
 Capture vidéo via Picamera2
+
 Détection du ballon par HoughCircles
+
 Définition d’une zone de but virtuelle
+
 Incrémentation automatique du score
+
 Activation d’un buzzer
+
 Enregistrement vidéo du but détecté
 
 ### Interface graphique :
 
 Affichage du score en temps réel
+
 Liste des vidéos enregistrées
+
 Lecture des vidéos via VLC
+
 Rafraîchissement automatique chaque seconde
 
 ## Éclairage automatique :
 
 Capteur PIR pour détecter la présence
+
 Allumage automatique de l’éclairage
+
 Système indépendant mais intégré au projet global
 
 ## Prérequis matériels :
 
 Raspberry Pi (OS 64-bit recommandé)
+
 Caméra Raspberry Pi
+
 LED
+
 Buzzer
+
 Arduino Uno
+
 Capteur PIR
+
 Breadboard et câblage
 
 ## Prérequis logiciels :
 
 Python 3.10+
+
 OpenCV
+
 Picamera2
+
 Tkinter
+
 VLC Media Player
+
 Arduino IDE
 
 ## Rapport du projet
